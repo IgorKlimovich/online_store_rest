@@ -1,0 +1,26 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto:
+  datasource:
+    url: jdbc:mysql://localhost:3306/online_store_rest
+    username: root
+    password:
+    driverClassName: com.mysql.cj.jdbc.Driver
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.xml
+    url: jdbc:mysql://localhost:3306/online_store_rest
+    user: root
+    password:
+  servlet:
+    multipart:
+      max-file-size: 9000000
+server:
+  port: 8081
+
+jwt:
+  token:
+    secret: jwtappdemo
+    expired: 3600000000
+

@@ -1,0 +1,17 @@
+.detSearch {
+    margin: 29px 100px 20px;
+}
+
+.inputJs {
+    margin-left: 40px;
+    padding: 7px 20px;
+    border: 2px solid #d4d4d4;
+    border-radius: 3px;
+}
+
+.searchJs {
+    display: flex;
+    align-items: baseline;
+    /*place-content: center;*/
+    margin-bottom: 24px;
+}
