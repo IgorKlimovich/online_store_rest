@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.add {
+    margin-right: -23px;
+    margin-left: -22px;
+}
+
+.color-head {
+    background-color: darkred;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    border-radius: 10px;
+}
+
+.p-3 {
+    padding: 15px;
+}
+
+body {
+    /*background-color:white;*/
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    /*background: url("https://www.arteks.ooo/upload/iblock/5e7/5e7ad1d9283ad6525c31f0b3ef20a855.jpg");*/
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.px {
+    margin-right: 80px;
+}
+
+.px-2 {
+    margin-left: 18px;
+}
+
+.mf {
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-style: oblique;
+}
+
+.text-secondary {
+    color: black;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.me-lg-3 {
+    margin-right: 45px;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.sc {
+    background-color: darkred;
+    color: #f8f9fa;
+    border-color: #f8f9fa
+}
+
+.btn {
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+.wdi {
+    padding: 0.5rem 5rem 0.375rem;
+}
+.sign-up{
+    margin-left: 34px;
+    margin-top: 3px;
+}
+
+.fs {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mg {
+    margin-left: 36px;
+}
+
+.text-end {
+    display: flex;
+}
+
+.btn-outline-light {
+    background-color: darkred;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+/*.me-2 {*/
+/*    margin-left: 60px*/
+/*}*/
+
+.btn-warning {
+    color: #f8f9fa;
+    background-color: #86898f;
+    border-color: #86898f;
+}
+
+.dd {
+    margin-left: -18px;
+}
+
+.mg-tp {
+    margin-top: 30px;
+}
+
+.my-btn {
+    background-color: white;
+    color: darkred;
+}
+
+.my-btn:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.btn-warning:hover {
+    background-color: #565353;
+    border-color: white;
+}
+
+
+
+.prof-img{
+    border-radius: 50%;
+}
+
+.prof{
+    margin-left: 105px;
+    margin-top: -8px;
+}
+.dropdown-toggle::after{
+    display: inline-block;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.5em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+    margin-left: 15px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+    margin: 49px -47px 26px -113px;
+}
+
+.dropdown-toggle{
+    text-decoration: none;
+}
+
+.show{
+    display: block;
+}
+
+.list-item{
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.color-item:hover{
+    background-color: #cacaca;
+}
+
+.del-profile{
+    background-color: white;
+    border: none;
+}
+.btn-error-add{
+    margin-left: 190px;
+}
+.del-prof-btn{
+    margin-left: 54px;
+}
+.search-btn{
+    cursor: pointer;
+    padding-top: 9px;
+    padding-bottom: 7px;
+    margin-left: -3px;
+    border: 1px solid white;
+}
+
+.mt{
+    margin-top: 8px;
+}
+
+.dropbtn {
+    padding: 5px;
+    cursor: pointer;
+}
+.dropbtn1 {
+    padding: 5px;
+    cursor: pointer;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    display: inline-block;
+    margin-left: 55px;
+    margin-top: 6px;
+    position: inherit;
+    margin-right: 20px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 55px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 0.25rem;
+    margin-top: 15px;
+    margin-left: -7px;
+    padding-left: 5px;
+}
+
+.dropbtn
+{
+    background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+    padding-left: 25px;
+    width: 40px;
+}
+
+.dropbtn1
+{
+    background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
+    padding-left: 25px;
+    width: 40px;
+}
+
+.dropdown-content a:first-child {
+    background: url('http://icons.iconarchive.com/icons/custom-icon-design/flag-3/16/Russia-Flag-icon.png') no-repeat left center;
+}
+
+.dropdown-content a:last-child {
+    background: url('https://icons.iconarchive.com/icons/fatcow/farm-fresh/16/flag-usa-icon.png') no-repeat left center;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 2px 0 2px 25px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #cacaca;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.choose-lang{
+    color: white;
+    text-decoration: none;
+}
+
+.active{
+    color: black;
+}
