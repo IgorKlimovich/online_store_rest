@@ -1,0 +1,49 @@
+
+.mb-3 {
+    margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-end {
+    display: flex;
+}
+
+.red {
+    background-color: black;
+}
+
+.ad {
+    margin-right: -23px;
+    margin-left: -22px;
+}
+
+.trLast:hover {
+    background: rgba(201, 197, 197, 0.43); /* Цвет фона */
+}
+
+.td-ref:active {
+    color: darkred;
+}
+
+.td-ref:hover {
+    color: #7a7575;
+    font-size: 20px;
+}
+
+.td-ref {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+.table {
+    width: 100%
+}
+
+.wid-td {
+    width: 500px;
+}

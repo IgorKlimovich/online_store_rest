@@ -1,0 +1,169 @@
+
+.modal-dialog-update-profile {
+    max-width: 600px;
+    margin-top: 108px;
+}
+
+.ml-btn {
+    margin-left: 60px;
+}
+
+.btn-choose-card {
+    border: none;
+    margin-left: 106px;
+    color: #5b5e5d;
+    font-size: 16px;
+    font-family: unset;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.btn-del {
+    margin-left: 3px;
+    color: darkred;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: unset;
+    cursor: pointer;
+}
+
+.pref {
+    color: #5b5e5d;
+    font-weight: 200;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.pass {
+    position: relative;
+}
+
+.password-control {
+    margin-right: 23px;
+    margin-top: -4px;
+    position: absolute;
+    top: 11px;
+    right: 6px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(https://snipp.ru/demo/495/view.svg) 0 0 no-repeat;
+}
+
+.password-control.view {
+    background: url(https://snipp.ru/demo/495/no-view.svg) 0 0 no-repeat;
+}
+
+.user {
+    text-align: -webkit-center;
+    margin-top: 100px;
+}
+
+.user-prof {
+    width: 600px;
+    height: auto;
+    /*background-color: #e4e8ec;*/
+    border: 2px solid #b2afaf;
+    border-radius: 43px;
+}
+
+body {
+    background-color: white;
+    /*background: url("https://www.arteks.ooo/upload/iblock/5e7/5e7ad1d9283ad6525c31f0b3ef20a855.jpg");*/
+}
+
+.prof-items {
+    display: flex;
+    margin-left: 40px;
+}
+
+.prof-data {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.det {
+    text-align: left;
+    margin-left: 23px;
+    margin-top: 12px;
+    margin-bottom: 26px;
+}
+
+.btn-choose-card {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    margin-left: 106px;
+    color: #5b5e5d;
+    font-size: 16px;
+    font-family: unset;
+}
+
+.add-card {
+    color: white;
+    background-color: darkred;
+    padding: 6px 24px;
+    border-radius: 49px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.btn-add {
+    display: flex;
+    margin-top: 8px;
+}
+
+.text-prof {
+    font-size: 16px;
+    font-family: unset;
+    color: #706e6e;
+}
+
+.sum {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.upd-btn {
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: -5px;
+}
+
+.add-card:hover {
+    background-color: #6c0404;
+    color: white;
+}
+
+.us-pr-col {
+    background-color: white;
+}
+
+.body-back {
+    background: url('https://www.arteks.ooo/upload/iblock/5e7/5e7ad1d9283ad6525c31f0b3ef20a855.jpg');
+}
+
+.pr-w {
+    width: 800px;
+}
+
+.us-tit {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.add-photo-prof {
+    margin-top: 20px;
+    margin-left: 18px;
+}
+
+.del-photo-prof {
+    margin-left: 17px;
+    margin-top: 20px;
+}
+
+.add-card-div {
+    margin-top: 15px;
+}
