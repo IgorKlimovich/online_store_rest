@@ -1,0 +1,179 @@
+
+.container {
+    display: flex;
+    background: url("https://www.arteks.ooo/upload/iblock/5e7/5e7ad1d9283ad6525c31f0b3ef20a855.jpg");
+}
+
+/*.active {*/
+/*    color: black;*/
+/*}*/
+
+.us {
+    width: 50%;
+    border-radius: 8px;
+}
+
+#okno-us{
+    display: none;
+}
+
+#okno-us:target{
+    display: block;
+}
+
+.prod {
+    width: 50%;
+    border-radius: 8px;
+}
+
+.formUs {
+    display: grid;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.labelUs {
+    font-family: 'Roboto', serif;
+    font-size: large;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.selectUs {
+    padding-left: 10px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-family: 'Roboto', serif;
+    font-weight: 600;
+    border: 1px solid #9ca0a4;
+    border-radius: 3px;
+}
+
+.inputUs {
+    width: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color: #212529;
+    background-color: #fff;
+    border: 1px solid #9ca0a4;
+}
+
+.btnUs {
+    width: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #9ca0a4;
+}
+
+INPUT:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 5px solid rgba(234, 155, 154, 0.8);
+}
+
+.titUs {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnUs:hover {
+    background-color: #d4d8dc;
+}
+
+.errorUs {
+    color: darkred;
+    text-align: center;
+    margin: 0;
+}
+
+select:focus {
+    outline: 0;
+    outline-offset: 0;
+    border: 5px solid rgba(234, 155, 154, 0.8);
+}
+
+.formProd {
+    display: grid;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+
+.titProd {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aa:hover{
+    background-color: red;
+}
+
+option:hover{
+    background-color: black;
+}
+
+option:focus{
+    background-color: black;
+}
+
+.findUser{
+    background-color: white;
+    margin-left: 99px;
+    border: 2px solid #b2afaf;
+    margin-top: 100px;
+    margin-right: 50px;
+    border-radius: 43px;
+}
+
+.findOrder{
+    background-color: white;
+    border: 2px solid #b2afaf;
+    margin: 100px 50px 200px 99px;
+    border-radius: 43px;
+}
+
+.findProd{
+    background-color: white;
+    margin-left: 50px;
+    border: 2px solid #b2afaf;
+    margin-top: 100px;
+    margin-right: 100px;
+    border-radius: 43px;
+}
+
+.findCat{
+    background-color: white;
+    border: 2px solid #b2afaf;
+    margin: 100px 100px 200px 50px;
+    border-radius: 43px;
+}
+
+.findBtn:hover {
+    background-color: #6c0404;
+    color: white;
+}
+
+.findBtn{
+    color: white;
+    background-color: darkred;
+    padding: 6px 24px;
+    border-radius: 49px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.end{
+    display: flex;
+    align-items: baseline;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.btnMr{
+    margin-right: 50px;
+}
